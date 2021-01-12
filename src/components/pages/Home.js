@@ -5,7 +5,6 @@ import {
   Col,
   Button,
   Card,
-  Alert,
   Modal,
   InputGroup,
   FormControl,
@@ -37,9 +36,9 @@ const Home = () => {
       <Row>
         <Col>
           <HomeContext.Provider value={items}>
-            <Card className='text-center shadow' style={{ width: '18rem' }}>
+            <Card className='text-center shadow' style={{ width: '27rem' }}>
               <Card.Header className='h3'>
-                {items.length} birthdays today
+                {items.length} Birthdays Found!
               </Card.Header>
               <Card.Body>
                 <List />
