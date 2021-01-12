@@ -1,6 +1,5 @@
 # Birthday Reminder
 
-This application will store and display upcoming, all and missed birthdays.
-Will be a lot useful, for me aleast :)
+UI for a simple birthday reminder application.
 
-Developed using create-react-app, backend provided by google firebase
+Developed using create-react-app and react-bootstrap.
